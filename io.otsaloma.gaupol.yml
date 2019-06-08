@@ -139,5 +139,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/otsaloma/gaupol.git
-        tag: "1.5"
-        commit: c11a3a6827ae259804bcc34e734da5cf6dc6452f
+        tag: "1.6"
+        commit: 7062ec0c4e426e98d178a3220c4186243ff04298
