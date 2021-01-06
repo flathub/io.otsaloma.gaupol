@@ -12,6 +12,17 @@ finish-args:
   - --socket=pulseaudio
   - --socket=wayland
   - --socket=x11
+cleanup:
+  - '*.la'
+  - /lib/pkg-config
+  - /lib/*.a
+  - /share/doc
+  - /share/man
+  - /share/gtk-doc
+  - /share/ffmpeg
+  - /share/gir-1.0
+  - /share/vala
+  - /share/zsh
 modules:
 
   # Internal video player codecs
