@@ -5,7 +5,6 @@ sdk: org.gnome.Sdk
 command: gaupol
 finish-args:
   - --device=dri
-  - --env=GST_PLUGIN_PATH_1_0=/app/lib/gstreamer-1.0
   - --filesystem=home
   - --filesystem=xdg-videos
   - --share=ipc
